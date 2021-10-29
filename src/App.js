@@ -2,10 +2,12 @@ import ProfileCard from "./components/ProfileCard";
 
 function App() {
   return (
-    <div className='body font-rubik text-base'>
-      <div className="min-h-screen bg-primary flex flex-col items-start justify-start">
+    <div>
+      <div className='body font-rubik text-base min-h-screen bg-primary'>
+      <div className="grid grid-cols-4 items-start justify-start px-40 py-56">
         <ProfileCard />
       </div>
+    </div>
     </div>
   );
 }
